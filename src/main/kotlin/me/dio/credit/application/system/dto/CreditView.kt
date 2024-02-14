@@ -23,7 +23,7 @@ constructor(credit: Credit): this(
     numberOfInstallment = credit.numberOfInstallment,
     status = credit.status,
     emailCustomer = credit.customer?.email,
-    incomeCustomer = credit.customer?.income
+    incomeCustomer = credit.customer?.income,
 )
 
 }
